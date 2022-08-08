@@ -18,4 +18,20 @@ function init() {
     function xuongduoi() {
     anh.style.top= parseInt(anh.style.top) +10 + "px"
     }
+    function xuongphai() {
+        anh.style.top= parseInt(anh.style.top) +10 + "px"
+        anh.style.left= parseInt(anh.style.left) + 10 +"px"
+    }
+    function xuongtrai() {
+    anh.style.top= parseInt(anh.style.top) +10 + "px"
+    anh.style.left= parseInt(anh.style.left) - 10 +"px"
+}
+    function lenphai() {
+    anh.style.top= parseInt(anh.style.top) -10 + "px"
+    anh.style.left= parseInt(anh.style.left) + 10 +"px"
+}
+    function lentrai() {
+    anh.style.top= parseInt(anh.style.top) -10 + "px"
+    anh.style.left= parseInt(anh.style.left) - 10 +"px"
+}
 window.onload = init();
